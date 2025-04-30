@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  body {
+    background-position: center;
+    padding: 0 15px;
+  }
+
+  .slider {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 496px) {
+  body {
+    justify-content: start;
+  }
+
+  .slider {
+    position: relative;
+  }
+
+  .character-list {
+    width: 250px;
+  }
+
+  .card-image {
+    width: 100%;
+  }
+
+  .btn-arrow {
+    position: absolute;
+    bottom: -15%;
+  }
+
+  #btn-forward {
+    right: 20%;
+  }
+
+  #btn-backward {
+    left: 20%;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    justify-content: start;
+    padding-top: 10px;
+    gap: 10px;
+  }
+
+  .header {
+    font-size: 12px;
+  }
+}
